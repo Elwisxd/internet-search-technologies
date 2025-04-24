@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Search Technologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        .tech-card {
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .tech-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Search Technologies</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search-engines.html">Search Engines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="algorithms.html">Algorithms</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+    <div class="container text-left">
+        <h1 class="display-4">Search engines</h1>
+    </div>
+</section>
+
+<section class="container mt-5">
+    <h2 class="mb-4 text-center">Major Search Engines</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card tech-card">
+                <img src="media/google.png" class="card-img-top  w-50 mx-auto d-block" alt="Google logo">
+                <div class="card-body">
+                    <h5 class="card-title">Google</h5>
+                    <p class="card-text">Google, launched in 1998, is the most widely used search engine in the world. Its minimalist design and powerful algorithm revolutionized the way we find information online.</p>
+                    <p class="card-text">It offers services like Google Maps, Google Scholar, Google Images, and many more. Its ranking system is based on hundreds of factors, including backlinks, content quality, and user experience.</p>
+                    <p class="card-text"><strong>Did you know?</strong> Google handles over 8.5 billion searches per day globally.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card tech-card">
+                <img src="media/duckduckgo.png" class="card-img-top  w-50 mx-auto d-block" alt="DuckDuckGo logo">
+                <div class="card-body">
+                    <h5 class="card-title">DuckDuckGo</h5>
+                    <p class="card-text">DuckDuckGo focuses on protecting users’ privacy. It does not track you or create a filter bubble around your searches, which means all users see the same search results for the same query.</p>
+                    <p class="card-text">It uses information from a variety of sources like Wikipedia, Bing, and its own web crawler. It also features "bangs" – shortcuts to search directly on other websites.</p>
+                    <p class="card-text"><strong>Interesting:</strong> DuckDuckGo grew rapidly during privacy scandals involving major tech companies.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card tech-card">
+                <img src="media/bing.png" class="card-img-top w-50 mx-auto d-block" alt="Bing logo">
+                <div class="card-body">
+                    <h5 class="card-title">Bing</h5>
+                    <p class="card-text">Microsoft's Bing is known for its visually appealing layout and features like daily background images, video previews, and integration with Microsoft Office and Windows.</p>
+                    <p class="card-text">It provides competitive search results and is often the default on Microsoft products. Bing also powers Yahoo's search results and supports advanced AI integrations in Microsoft Edge.</p>
+                    <p class="card-text"><strong>Note:</strong> Bing has a rewards program that lets users earn points for their searches.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card tech-card">
+                <img src="media/yahoo.png" class="card-img-top w-50 mx-auto d-block" alt="Yahoo logo">
+                <div class="card-body">
+                    <h5 class="card-title">Yahoo</h5>
+                    <p class="card-text">Yahoo was one of the first web portals and search engines. While it now uses Bing's technology for search results, it retains a unique look and additional services such as Yahoo Mail, News, Finance, and Sports.</p>
+                    <p class="card-text">Its homepage serves as a news aggregator and media hub, which makes it appealing to users who want more than just search.</p>
+                    <p class="card-text"><strong>Legacy:</strong> Yahoo was a dominant internet brand in the early 2000s before Google took the lead.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card tech-card">
+                <img src="media/yandex.png" class="card-img-top w-50 mx-auto d-block" alt="Yandex logo">
+                <div class="card-body">
+                    <h5 class="card-title">Yandex</h5>
+                    <p class="card-text">Yandex is the most popular search engine in Russia and also serves other countries in Eastern Europe. It offers services similar to Google, including maps, email, translation, and taxi services.</p>
+                    <p class="card-text">It is optimized for the Russian language and local content, which makes it the preferred choice for users in the region. Yandex also invests heavily in AI and autonomous technology.</p>
+                    <p class="card-text"><strong>Fun fact:</strong> Yandex was founded in 1997 and has its own voice assistant, "Alice."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="text-center">
+    <div class="container">
+        <p>&copy; Course Internet Search Technologies 2025</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

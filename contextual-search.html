@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Search Technologies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        .tech-card {
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .tech-card:hover {
+            transform: translateY(-5px);
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Search Technologies</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="search-engines.html">Search Engines</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="algorithms.html">Algorithms</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-section">
+    <div class="container text-left">
+        <h1 class="display-4">Contextual search</h1>
+    </div>
+</section>
+
+<section class="container mt-5">
+    <p class="text-center mb-5">
+        Contextual search goes beyond keyword matching. It focuses on understanding the user's situation, preferences, and intent based on additional signals. These include location, device, previous interactions, time of day, and even real-world events.
+    </p>
+
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6">
+            <h4>How It Works</h4>
+            <p>Search engines analyze the context of a query to refine the results. For example, the query “best coffee” on a smartphone in the morning might show nearby cafés with good reviews, while the same query at home in the evening may return online coffee brands or recipes.</p>
+            <p>This dynamic adaptation enhances relevance and helps deliver personalized content to users in real time.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="media/contextual-search.jpg" class="img-fluid mx-auto d-block" style="max-width: 300px;" alt="">
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="card tech-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">📍 Location Awareness</h5>
+                    <p class="card-text">Search engines detect your location to deliver nearby services or places. For example, searching “ATM” will prioritize nearby machines based on your GPS position.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card tech-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">⏱️ Time Sensitivity</h5>
+                    <p class="card-text">The same query can return different results depending on the time of day, season, or current events. Searching “football” during the World Cup returns news and live scores.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card tech-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">📖 Search History</h5>
+                    <p class="card-text">Based on your previous queries, search engines adjust results to better match your preferences. If you've searched for vegan recipes, the next “chocolate cake” query may highlight vegan options.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <h4>Why It Matters</h4>
+            <p>
+                Contextual search creates a more natural and efficient user experience. It saves time, reduces ambiguity, and enables smarter digital assistants. However, it also raises questions about privacy and data usage, requiring transparency and user control over personalized data.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="text-center">
+    <div class="container">
+        <p>&copy; Course Internet Search Technologies 2025</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
