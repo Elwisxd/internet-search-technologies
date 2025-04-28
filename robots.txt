@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://internet-search-technologie-qhr7q.kinsta.page/sitemap.xml
+Sitemap: https://internet-search-technologies.netlify.app/sitemap.xml
