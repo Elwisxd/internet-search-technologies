@@ -2,4 +2,5 @@ User-agent: *
 
 Allow: /
 
-Sitemap: https://elwisxd.github.io/internet-search-technologies/github-sitemap.xml
+Sitemap: https://elwisxd.github.io/internet-search-technologies/sitemap.xml
+Sitemap: https://elwisxd.github.io/internet-search-technologies/sitemap.txt
