@@ -1,6 +1,0 @@
-https://internet-search-technologies.netlify.app
-https://internet-search-technologies.netlify.app/search-engines
-https://internet-search-technologies.netlify.app/algorithms
-https://internet-search-technologies.netlify.app/voice-search
-https://internet-search-technologies.netlify.app/contextual-search
-https://internet-search-technologies.netlify.app/personalized-results
