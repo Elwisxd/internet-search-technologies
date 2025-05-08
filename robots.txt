@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap: http://localhost:63342/internet-search-technologies/sitemap.txt
+Sitemap: http://elwisxd.github.io/internet-search-technologies/sitemap.txt
